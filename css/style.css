@@ -9,8 +9,6 @@
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
 }
 
-/* @media(min-width:1200px){ */
-
 h1 {
   font-size: 45px;
   font-family: "Open Sans";
@@ -55,7 +53,6 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: -59px;
-  /* margin-left: -23px; */
 }
 
 /* popup */
@@ -76,8 +73,6 @@ body {
 
 .form-popup::before {
   background-image: url(../svg/form-x.svg);
-  /* width: 20px;
-  height: 20px; */
   background-size: 18px;
   background-repeat: no-repeat;
   background-position: center;
@@ -430,6 +425,7 @@ main {
 
 .miniBlock {
   margin-bottom: 60px;
+  display: flex;
 }
 
 .under-img,
@@ -471,7 +467,6 @@ main {
 }
 
 .text-post-Link:hover {
-  /* font-weight: 900; */
   color: #b59f5b;
 }
 
@@ -895,13 +890,11 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  /* margin: 20px 4px 0; */
 }
 
 .basement {
   width: 1170px;
   padding: 0 16px;
-  /* box-sizing: content-box; */
 }
 
 .greyBasement {
@@ -1048,11 +1041,9 @@ footer {
   .trend {
     display: grid;
     grid-template-columns: 1fr;
-    /* gap: 15px; */
   }
 
   .contentArea {
-    /* display: flex; */
     flex-direction: column;
   }
 
