@@ -1031,7 +1031,7 @@ footer {
 
 }
 
-@media(max-width:640px) {
+@media(max-width:780px) {
 
   .header {
     background-image: url(../images/banner-mobile.jpg);
